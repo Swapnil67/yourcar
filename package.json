@@ -13,8 +13,10 @@
     "@types/react-dom": "^16.9.14",
     "@types/react-redux": "^7.1.21",
     "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
+    "react-responsive": "^9.0.0-beta.5",
     "react-scripts": "5.0.0",
     "styled-components": "^5.3.3",
     "twin.macro": "^2.8.2",
@@ -41,7 +43,14 @@
       "last 1 safari version"
     ]
   },
+  "babelMacros": {
+    "twin": {
+      "config": "./src/tailwind.config.js",
+      "preset": "styled-components"
+    }
+  },
   "devDependencies": {
+    "@types/react-responsive": "^8.0.5",
     "@types/styled-components": "^5.1.19",
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.5",
